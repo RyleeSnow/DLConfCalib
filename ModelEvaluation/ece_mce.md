@@ -1,4 +1,4 @@
-### 期望校准误差 Expected Calibration Error (ECE)
+## 🦄 期望校准误差 Expected Calibration Error (ECE)
 如果借用[校准曲线](./calibration_curve.md)，可以理解 ECE 就是校准曲线到对角线的距离的加权平均。
 
 假设你现在已经画好了一个校准曲线，分成 $M$ 段（$M$ bins），然后每段有 $B_i$ 个样本，ECE 的计算方式为：
@@ -14,7 +14,7 @@
 
 &nbsp;
 
-### 最大校准误差 Maximum Calibration Error (MCE)
+## 🐬 最大校准误差 Maximum Calibration Error (MCE)
 ECE 是校准曲线到对角线的距离的加权平均，而 MCE 是校准曲线到对角线的距离的最大值。借用上面的例子，MCE 的计算方式为：
 
 ![Formula 2](https://latex.codecogs.com/png.latex?MCE={max}_{i\in(1,...,M)}\({|y(B_i)-p(B_i)|}\))
@@ -26,5 +26,5 @@ ECE 是校准曲线到对角线的距离的加权平均，而 MCE 是校准曲�
 
 &nbsp;
 
-### 相同与区别
+## 🐈‍ 相同与区别
 ECE 和 MCE 都利用了“校准曲线到对角线的距离”，但是 ECE 更多关注到“平均”情况，或者说整体情况；而 MCE 则更多关注到“最糟糕的情况”。
