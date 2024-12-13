@@ -3,7 +3,7 @@
 
 ![Formula 1](./ece.PNG)
 
-假设你现在已经画好了一个校准曲线，分成 $M$ 段（$M$ bins），然后每段有 $B_i$ 个样本，ECE 的计算方式为：
+假设你现在已经画好了一个校准曲线，分成 $M$ 段（ $M$ bins），然后每段有 $B_i$ 个样本，ECE 的计算方式为：
 
 ![Formula 1](https://latex.codecogs.com/png.latex?ECE=\sum_{i=0}^{M}{\frac{|B_i|}{N}{|y(B_i)-p(B_i)|}})
 
