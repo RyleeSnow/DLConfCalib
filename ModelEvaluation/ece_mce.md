@@ -1,5 +1,5 @@
 ## 🦄 期望校准误差 Expected Calibration Error (ECE)
-如果借用[校准曲线](./calibration_curve.md)，可以理解 ECE 就是校准曲线到对角线的距离的加权平均。
+如果借用[校准曲线](./calibration_curve.md)，可以理解 ECE 就是**校准曲线到对角线的距离（下图中红色的“GAP”）的加权平均**。
 
 ![Formula 1](./ece.PNG)
 
