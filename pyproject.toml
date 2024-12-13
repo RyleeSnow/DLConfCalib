@@ -1,0 +1,19 @@
+[tool.yapf]
+spaces_before_comment = 2
+column_limit = 120
+split_before_logical_operator = true
+disable_ending_comma_heuristic = true
+indent_closing_brackets = false
+join_multiple_lines = true
+# continuation_align_style = "valign-right"
+continuation_align_style = "space"
+force_multiline_dict = false
+indent_blank_lines = false
+coalesce_brackets = true
+blank_line_before_nested_class_or_def = true
+split_before_expression_after_opening_paren = false
+split_before_first_argument = false
+split_all_comma_separated_values = false
+split_before_named_assigns = false
+split_arguments_when_comma_terminated = false
+split_complex_comprehension = false
